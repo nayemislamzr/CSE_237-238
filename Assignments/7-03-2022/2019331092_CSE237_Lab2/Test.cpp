@@ -36,6 +36,6 @@ int mergeSortStressTesting(int tests)
 
 int main()
 {
-    cout << "The QuickSort took " << quickSortStressTesting(MAX_ARRAY_SIZE) << " seconds to execute.";
-    cout << "The MergeSort took " << mergeSortStressTesting(MAX_ARRAY_SIZE) << " seconds to execute.";
+    cout << "The QuickSort took " << quickSortStressTesting(MAX_TESTS) << " seconds to execute.\n";
+    cout << "The MergeSort took " << mergeSortStressTesting(MAX_TESTS) << " seconds to execute.\n";
 }
